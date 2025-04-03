@@ -15,6 +15,6 @@ class UsersController extends Controller
         $newUser->name       = $newUser->name . '_cloned';
         $newUser->created_at = Carbon::now();
         $newUser->save();
-        echo '使用者複製編號：' . $user->id . ' ' . '成為新使用者編號：' .  $newUser->id . '，新使用者名稱為：' . $newUser->name . PHP_EOL;
+        echo __('Cloned user ID:') . $user->id . ' ' . __('becomes a new user ID:') .  $newUser->id . __(', the new user name is:') . $newUser->name . PHP_EOL;
     }
 }

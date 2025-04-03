@@ -1,4 +1,4 @@
-# Laravel 10 複製資料庫紀錄
+# Laravel 11 複製資料庫紀錄
 
 複製資料庫中已經存在的模型，並未真正變動資料庫，因此可以進行修改並再將其保存。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/N882ixQ.png)
+![](https://i.imgur.com/mO2s9dj.png)
 > 通過複製模型進行複製全部屬性
